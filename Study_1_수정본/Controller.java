@@ -1,3 +1,4 @@
+
 package studycafe.homework_3_1;
 
 import java.util.Scanner;
@@ -19,7 +20,9 @@ public class Controller {
 				System.out.println("해당프로그램을 종료합니다.");
 				break;
 			}
-			else{SelectStart(sel);}
+			else{
+				SelectStart(sel);
+			}
 		}
 	}
 	public void SelectStart(int sel){
